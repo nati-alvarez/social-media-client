@@ -1,0 +1,39 @@
+.auth-form {
+    background: var(--white);
+    border: 1px solid var(--light-purple);
+    width: 85%;
+    max-width: 600px;
+    padding: 2% 5%;
+    margin: 0 auto;
+    margin-top: 5%;
+}
+
+.auth-form input, .auth-form textarea{
+    display: block;
+    border: 1px solid var(--light-blue);
+    border-radius:3px;
+    width: 80%;
+    padding: 5px;
+    margin: 3% 0px;
+    font-size: 18px;
+}
+
+.auth-form button {
+    margin-right: 10px;
+    background: var(--dark-blue);
+    color: var(--white);
+    font-size: 22px;
+}
+
+.auth-err {
+    color: crimson;
+}
+
+.auth-success {
+    color: darkgreen;
+}
+
+#back {
+    padding: 0px 20px;
+    font-size: 24px;
+}

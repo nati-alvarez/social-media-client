@@ -1,0 +1,70 @@
+nav {
+    background: var(--black);
+    color: var(--white);
+    padding: 5px;
+    font-size: 18px;
+}
+
+nav .profile-pic {
+    margin: 0px 10px;
+}
+
+nav button {
+    font-size: 18px;
+    margin: 0px 5px;
+}
+
+nav a {
+  color: var(--white);
+  text-decoration: none;
+}
+
+.logout-btn {
+    background: var(--light-blue);
+}
+
+.new-post-btn {
+    background: var(--dark-blue);
+    color: var(--white);
+}
+
+main {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-gap: 3em;
+    padding: 20px;
+}
+
+main section {
+    padding: 10px;
+    background: whitesmoke;
+}
+
+main section h4 {
+    margin-bottom: 10px;
+}
+
+.post-nav {
+    padding: 0px;
+    border-bottom: 5px solid var(--dark-purple);
+}
+
+.post-nav li {
+    padding: 5px;
+    background: var(--lightest-blue);
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.post-nav li:hover {
+    cursor: pointer;
+}
+
+main aside {
+    padding: 10px;
+    background: whitesmoke;
+}
+
+main aside h4 {
+    margin-bottom: 20px;
+}

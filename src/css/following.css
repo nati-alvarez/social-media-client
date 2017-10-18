@@ -1,0 +1,17 @@
+.following .user {
+    margin: 10px 0px;
+    border: 1px solid lightgrey;
+    padding: 5px;
+}
+
+.following .user .profile-pic {
+    margin-right: 10px
+}
+
+.following .user h5 {
+    margin-bottom: 10px;
+}
+
+.following button {
+    margin-right: 5px;
+}

@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+:root {
+    --black: #242424;
+    --white:#EBEBEC;
+
+    --like: #5B7CB0;
+    --dislike: #E94E4E;
+    --favorite: #D162A1;
+
+    --lightest-blue: #E0DEE6;
+    --light-blue: #B6B1C6;
+    --dark-blue: #4E4177;
+
+    --lightest-purple : #E1DCE4;
+    --light-purple: #BBACC3;
+    --dark-purple: #603B74;
+}
+
+.profile-pic {
+    border-radius: 50%;
+    vertical-align: middle;
+}
+
+.follow-btn {
+    background: var(--dark-blue);
+    color: var(--white);
+}
+
+body {
+    margin: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 18px;
+    background: var(--lightest-purple);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0px;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+h2 {
+    font-size: 48px;
+}
+
+h3 {
+    font-size: 36px;
+}
+
+h4 {
+    font-size: 24px;
+}
+
+h5 {
+    font-size: 22px;
+}
+
+h6 {
+  font-size: 20px;
+}
+
+button, input[type=submit] {
+    font-family: 'Josefin Sans', sans-serif;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+a  {
+    color: var(--dark-purple);
+    text-decoration: underline;
+    display: inline-block;
+}
+
+a:hover {
+    cursor: pointer;
+}

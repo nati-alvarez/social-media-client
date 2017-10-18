@@ -1,0 +1,36 @@
+.edit-profile {
+  background: var(--white);
+  padding: 10px;
+  width: 60%;
+  max-width: 1000px;
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  min-width: 300px;
+}
+
+.edit-profile label {
+  display: block;
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: 20px 0px;
+
+}
+
+.edit-profile textarea, .edit-profile input {
+  vertical-align: text-top;
+  width: 60%;
+  border: none;
+}
+
+.edit-profile-btn {
+  background: var(--dark-purple);
+  color: var(--white);
+  font-size: 18px;
+}
+
+.home {
+  font-size: 22px;
+  margin: 20px 0px 0px 20px;
+}

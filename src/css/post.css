@@ -1,0 +1,86 @@
+.posts-container {
+    
+}
+
+.post {
+    border: 1px solid lightgrey;
+    padding: 5px;
+    border-radius: 3px;
+    margin: 20px 0px;
+}
+
+.post .author {
+    margin-bottom: 5px;
+}
+
+.post .profile-pic {
+    margin-right: 10px;
+}
+
+.post .timestamp {
+    font-size: 14px;
+    color: dimgray;
+}
+
+.post p {
+    font-size: 18px;
+}
+
+.post-buttons {
+    margin-bottom: 10px;
+}
+
+.post-buttons button {
+    margin-right: 10px;
+    background: transparent;
+    border: 1px solid lightgray;
+    font-size: 16px;
+    transition: background 200ms ease 100ms;
+}
+
+.post-buttons .counter {
+    display: inline-block;
+    font-size: 14px;
+    width: 14px;
+    height: 14px;
+    padding: 2px;
+    border-radius: 50%;
+    background: gainsboro;
+    border: 1px solid gray;
+}
+
+.fa-thumbs-up {
+    color: var(--like);
+}
+
+.fa-thumbs-down {
+    color: var(--dislike);
+}
+
+.fa-heart {
+    color: var(--favorite);
+}
+
+.post-btn:hover {
+    color: var(--white);
+}
+
+.post-btn:hover > span {
+    color: var(--black);
+}
+
+.post-btn:hover > .fa {
+    color: var(--white);
+}
+
+.like-btn:hover {
+    background: var(--like);
+}
+
+.dislike-btn:hover {
+    background: var(--dislike);
+}
+
+.favorite-btn:hover {
+    background: var(--favorite);
+}
