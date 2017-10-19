@@ -19,7 +19,7 @@ export function logout(){
     }
 }
 
-export function signup(username, password, email){
+export function signup(username, email, password){
     return function(dispatch){
         dispatch({type: "SIGNUP_START", payload: "...loading"});
         axios.post('https://complainr-api.now.sh/api/users',

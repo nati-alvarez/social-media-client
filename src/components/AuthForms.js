@@ -29,7 +29,7 @@ class AuthForm extends Component {
         }
     }
     signup(username, email, password, confirm){
-       this.props.signup(username, email, password, confirm);
+       this.props.signup(username, email, password);
     }
     login(username, login) {
         this.props.login(username, login)
@@ -56,7 +56,7 @@ class AuthForm extends Component {
         }else {
             return (
                 <div className="auth-form">
-                    <SignupForm auth={this.props.auth} signup={this.signup} changeForm={this.changeForm}/> 
+                    <SignupForm auth={this.props.auth} signup={this.signup} changeForm={this.changeForm}/>
                     <p>{this.props.auth.status}</p>
                     <p className="auth-err">{this.props.auth.message} {this.props.auth.err}</p>
                 </div>
