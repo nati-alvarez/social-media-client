@@ -29,7 +29,7 @@ class AuthForm extends Component {
         }
     }
     signup(username, email, password, confirm){
-       this.props.signup(username, email, password);
+       this.props.signup(username, email, password, confirm);
     }
     login(username, login) {
         this.props.login(username, login)

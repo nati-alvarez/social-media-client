@@ -5,8 +5,8 @@ class SignupForm extends Component {
         e.preventDefault();
         var username = document.getElementById("username").value;
         var email = document.getElementById("email").value;
-        var confirm = document.getElementById("confirm").value;
         var password = document.getElementById("password").value;
+        var confirm = document.getElementById("confirm").value;
 
         this.props.signup(username, email, password, confirm);
     }
